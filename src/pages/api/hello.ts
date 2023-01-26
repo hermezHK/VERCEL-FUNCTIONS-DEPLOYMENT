@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export const config = {
-  runtime : "edge",
+  runtime: "edge",
 };
 
-export default (req : NextRequest) =>{
+// eslint-disable-next-line import/no-anonymous-default-export
+export default (req: NextRequest) => {
   return NextResponse.json({
-    message: `Hello World ${req.url}`,
+    message: `Hello world ${req.url}`,
   });
 };
