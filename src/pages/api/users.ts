@@ -11,11 +11,11 @@ export default (req: NextRequest) => {
     data: [
       {
         id: 1,
-        name: "Linder",
+        name: "Hermez",
       },
       {
         id: 2,
-        name: "Lucas",
+        name: "BILL Y BEYBIS",
       },
     ],
   });
